@@ -1,0 +1,55 @@
+:root {
+    --primary-color: blue;
+    --heading-color: red;
+    --container-bg-color: lightgray;
+    --table-bg-color: beige;
+    --table-cell-border-color: darkgray;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: var(--heading-color);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: var(--container-bg-color);
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  ul li:first-child {
+    color: red;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid var(--table-cell-border-color);
+    padding: 10px;
+  }
+  
+  tr:hover {
+    background-color: lightblue;
+  }
+  
+  th {
+    background-color: gray;
+    color: white;
+  }
+  
+  
